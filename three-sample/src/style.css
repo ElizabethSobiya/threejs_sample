@@ -6,4 +6,47 @@
 
 body, html{
     overflow-y: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.webgl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav{
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding: 4rem 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    color: white;
+    z-index: 2;
+    position: absolute;
+    font-size: 3rem;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50% , -75%);
+    -webkit-transform: translate(-50% , -75%);
+    -moz-transform: translate(-50% , -75%);
+    -ms-transform: translate(-50% , -75%);
+    -o-transform: translate(-50% , -75%);
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
 }
